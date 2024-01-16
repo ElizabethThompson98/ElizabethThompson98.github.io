@@ -33,6 +33,16 @@
         Hi there! My name is Elizabeth Thompson. I am a research and teaching assistant at Washington State University. I love teaching Calculus, and my research is in Topological Data Analysis and Machine Learning!
     </p>
 
+    <p>
+        <strong>Contact Information</strong><br>
+        Email: elizabeth.thompson1@wsu.edu<br>
+        Office Address:<br>
+        Vancouver Undergraduate Building<br>
+        Room 251<br>
+        Washington State University<br>
+        Vancouver WA, 98661
+    </p>
+
     <h2>Education</h2>
     <ul>
         <li>PhD in Mathematics, Washington State University (WSU), 2021-Present</li>
