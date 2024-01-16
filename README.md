@@ -14,12 +14,7 @@
 
         .column {
             flex: 1; /* Each column takes up equal space */
-            max-width: 60%; /* Limit each column to half the width of the page */
-        }
-
-        .right-column {
-            max-width: 40%; /* Limit the right column to 40% of the width of the page */
-            margin-right: 20px; /* Adjust the margin to move the content to the right in the right column */
+            max-width: 50%; /* Limit each column to half the width of the page */
         }
 
         img {
