@@ -20,8 +20,8 @@
         }
 
         .greeting {
-            font-size: 1.5em; /* Increase the font size of the greeting */
-            margin-bottom: 15px; /* Add margin to the bottom of the greeting */
+            font-size: 1.2em; /* Increase the font size of the greeting */
+            margin-bottom: 20px; /* Add margin to the bottom of the greeting */
         }
 
         img {
