@@ -7,7 +7,7 @@
 
     <style>
         body {
-            margin: 2px; /* Add some margin to the body to provide space */
+            margin: 20px; /* Add some margin to the body to provide space */
             display: flex;
             flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
         }
@@ -15,6 +15,13 @@
         .column {
             flex: 1; /* Each column takes up equal space */
             max-width: 50%; /* Limit each column to half the width of the page */
+            margin-right: 0; /* Remove the margin between columns */
+            box-sizing: border-box; /* Include padding and border in the total width */
+        }
+
+        .greeting {
+            font-size: 1.5em; /* Increase the font size of the greeting */
+            margin-bottom: 15px; /* Add margin to the bottom of the greeting */
         }
 
         img {
@@ -35,7 +42,7 @@
 
     <div class="column">
         <!-- Greeting at the top of the left column -->
-        <p>
+        <p class="greeting">
             Hi there! My name is Elizabeth Thompson. I am a research and teaching assistant at Washington State University. I love teaching Calculus, and my research is in Topological Data Analysis and Machine Learning!
         </p>
 
