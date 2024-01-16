@@ -87,7 +87,7 @@
     <div class="column">
         <!-- Image and Contact Information -->
         <div class="columnWrapper">
-            <img src="https://github.com/ElizabethThompson98/ElizabethThompson98.github.io/blob/main/Directory_Photo.jpg?raw=true" alt=""">
+            <img src="https://github.com/ElizabethThompson98/ElizabethThompson98.github.io/blob/main/Directory_Photo.jpg?raw=true" alt=""/>
 
             <p>
                 <strong>Contact Information</strong><br>
