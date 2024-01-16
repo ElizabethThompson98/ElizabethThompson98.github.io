@@ -37,6 +37,11 @@
             list-style-type: none;
             padding: 0; /* Remove default padding */
         }
+
+        img {
+        width: 50%; /* Set the width of the image to 50% */
+        height: auto; /* Allow the height to adjust proportionally */
+        }
     </style>
 </head>
 <body>
