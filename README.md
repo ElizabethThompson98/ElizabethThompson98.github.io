@@ -82,7 +82,7 @@
 
     <div class="column">
         <!-- Image and Contact Information -->
-        <img src="https://raw.githubusercontent.com/ElizabethThompson98/ElizabethThompson98.github.io/main/Directory_Photo.jpg" alt="" width="200">
+        <img src="https://raw.githubusercontent.com/ElizabethThompson98/ElizabethThompson98.github.io/main/Directory_Photo.jpg" alt="" width="100",height="200">
 
         <p>
             <strong>Contact Information</strong><br>
