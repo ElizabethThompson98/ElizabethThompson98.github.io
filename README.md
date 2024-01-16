@@ -15,12 +15,12 @@
     <h2>Research</h2>
     <ul>
         <li>PhD in Mathematics, Washington State University, 2021-Present</li>
-        <li>BS in Mathematics & Secondary Education, Linfield University, 2017-2021</li>
+        <li>BS in Mathematics & Secondary Education, Linfield University (WSU), 2017-2021</li>
     </ul>
 
     <h2>Presentations</h2>
     <ul>
-        <li><a href="https://www.youtube.com/watch?v=iu7vNOukW00&t=3550s">What Can Donuts Tell Us About Body Cam Data?</a> March 29, 2023</li>        
+        <li><a href="https://www.youtube.com/watch?v=iu7vNOukW00&t=3550s">What Can Donuts Tell Us About Body Cam Data?</a> 2nd Place Three Minute Thesis Finals, WSU, March 29, 2023</li>        
         <li><a href="https://georgefoxuniversity.regfox.com/pacific-northwest-section-of-the-mathematical-association-of-america"> PNW MAA Meeting</a> "Motivating Student Learning with Mathematical Modeling in Calculus for Life Science" by Alexander Dimitrov and Elizabeth Thompson, George Fox University, March 18, 2023</li>
     </ul>
 
