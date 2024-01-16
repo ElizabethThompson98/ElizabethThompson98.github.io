@@ -9,13 +9,13 @@
 
     <p>
         Hi there! My name is Elizabeth Thompson. I am a research and teaching assistant at Washington State University. I love teaching Calculus, and my research is in Topological Data Analysis and Machine Learning! 
-        <img src=https://github.com/ElizabethThompson98/ElizabethThompson98.github.io/blob/main/Directory_Photo.jpg alt="" width="200">
+        <img src="https://raw.githubusercontent.com/ElizabethThompson98/ElizabethThompson98.github.io/main/Directory_Photo.jpg" alt="" width="200">
     </p>
 
     <h2>Education</h2>
     <ul>
-        <li>PhD in Mathematics, Washington State University, 2021-Present</li>
-        <li>BS in Mathematics & Secondary Education, Linfield University (WSU), 2017-2021</li>
+        <li>PhD in Mathematics, Washington State University (WSU), 2021-Present</li>
+        <li>BS in Mathematics & Secondary Education, Linfield University, 2017-2021</li>
     </ul>
 
     <h2>Presentations</h2>
