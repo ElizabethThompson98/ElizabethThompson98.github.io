@@ -10,6 +10,7 @@
             margin: 20px; /* Add some margin to the body to provide space */
             display: flex;
             flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+            align-items: flex-start; /* Align items at the start of the flex container */
         }
 
         .column {
@@ -38,9 +39,14 @@
             padding: 0; /* Remove default padding */
         }
 
+        .columnWrapper {
+            width: 100%;
+            min-height: 600px;
+        }
+        
         img {
-        width: 50%; /* Set the width of the image to 50% */
-        height: auto; /* Allow the height to adjust proportionally */
+            width: 50%; /* Set the width of the image to 50% */
+            height: auto; /* Allow the height to adjust proportionally */
         }
         
     </style>
@@ -82,17 +88,19 @@
 
     <div class="column">
         <!-- Image and Contact Information -->
-        <img src="https://github.com/ElizabethThompson98/ElizabethThompson98.github.io/blob/main/Directory_Photo.jpg?raw=true" alt="Elizabeth Thompson's Photo" style="max-width: 50%; height: auto;">
+        <div class="columnWrapper">
+            <img src="https://github.com/ElizabethThompson98/ElizabethThompson98.github.io/blob/main/Directory_Photo.jpg?raw=true" alt="Elizabeth Thompson's Photo">
 
-        <p>
-            <strong>Contact Information</strong><br>
-            Email: elizabeth.thompson1@wsu.edu<br>
-            Office Address:<br>
-            Vancouver Undergraduate Building<br>
-            Room 251<br>
-            Washington State University<br>
-            Vancouver WA, 98661
-        </p>
+            <p>
+                <strong>Contact Information</strong><br>
+                Email: elizabeth.thompson1@wsu.edu<br>
+                Office Address:<br>
+                Vancouver Undergraduate Building<br>
+                Room 251<br>
+                Washington State University<br>
+                Vancouver WA, 98661
+            </p>
+        </div>
     </div>
 
 </body>
