@@ -18,7 +18,7 @@
         }
 
         img {
-            width: 100%; /* Set the width of the image to fill its container */
+            width: 80%; /* Set the width of the image to fill its container */
             margin: 0 0 10px 10px; /* Adjust margin for spacing around the image */
         }
 
