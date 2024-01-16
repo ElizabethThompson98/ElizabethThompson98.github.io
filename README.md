@@ -36,6 +36,12 @@
         h2 {
             clear: right; /* Clear the float to ensure headings start below the image */
         }
+
+        /* Style to remove bullets from all lists */
+        ul {
+            list-style-type: none;
+            padding: 0; /* Remove default padding */
+        }
     </style>
 </head>
 <body>
@@ -44,8 +50,8 @@
         <!-- Greeting at the top of the left column -->
         <p class="greeting">
             Hi there! My name is Elizabeth Thompson. I am a research and teaching assistant at Washington State University. I love teaching Calculus, and my research is in Topological Data Analysis and Machine Learning!
-        <!-- Link to the PDF file -->
-        <a href="Graduate CV.pdf" target="_blank">Here is a link to my CV.</a>
+            <!-- Link to the PDF file -->
+            <a href="Graduate CV.pdf" target="_blank">Here is a link to my CV.</a>
         </p>
 
         <!-- Education -->
