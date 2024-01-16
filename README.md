@@ -4,12 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+
+    <style>
+        body {
+            margin: 20px; /* Add some margin to the body to provide space */
+        }
+
+        img {
+            float: right; /* Float the image to the right */
+            width: 300px; /* Set the width of the image */
+            margin: 0 0 10px 10px; /* Adjust margin for spacing around the image */
+        }
+
+        p {
+            text-align: justify; /* Justify the text */
+        }
+
+        h2 {
+            clear: right; /* Clear the float to ensure headings start below the image */
+        }
+    </style>
 </head>
 <body>
 
+    <img src="https://raw.githubusercontent.com/ElizabethThompson98/ElizabethThompson98.github.io/main/Directory_Photo.jpg" alt="" width="200">
+
     <p>
-        Hi there! My name is Elizabeth Thompson. I am a research and teaching assistant at Washington State University. I love teaching Calculus, and my research is in Topological Data Analysis and Machine Learning! 
-        <img src="https://raw.githubusercontent.com/ElizabethThompson98/ElizabethThompson98.github.io/main/Directory_Photo.jpg" alt="" width="200">
+        Hi there! My name is Elizabeth Thompson. I am a research and teaching assistant at Washington State University. I love teaching Calculus, and my research is in Topological Data Analysis and Machine Learning!
     </p>
 
     <h2>Education</h2>
