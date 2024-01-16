@@ -43,8 +43,8 @@
         }
         
         img {
-            width: 50%; /* Set the width of the image to 50% */
-            height: auto; /* Allow the height to adjust proportionally */
+            height: 50%; /* Set the width of the image to 50% */
+            width: auto; /* Allow the height to adjust proportionally */
         }
         
     </style>
