@@ -76,7 +76,7 @@
 
     <div class="column">
         <!-- Image and Contact Information -->
-        <img src="https://github.com/ElizabethThompson98/ElizabethThompson98.github.io/blob/main/Directory_Photo.jpg?raw=true" alt="Elizabeth Thompson's Photo" width="50%" height="50%">
+        <img src="https://github.com/ElizabethThompson98/ElizabethThompson98.github.io/blob/main/Directory_Photo.jpg?raw=true" alt="Elizabeth Thompson's Photo" width="10%" height="20%">
 
         <p>
             <strong>Contact Information</strong><br>
