@@ -18,7 +18,7 @@
         }
 
         img {
-            width: 100%; /* Set the width of the image to fill its container */
+            width: 80%; /* Set the width of the image to fill its container */
             margin: 0 0 10px 10px; /* Adjust margin for spacing around the image */
         }
 
@@ -34,6 +34,11 @@
 <body>
 
     <div class="column">
+        <!-- Greeting at the top of the left column -->
+        <p>
+            Hi there! My name is Elizabeth Thompson. I am a research and teaching assistant at Washington State University. I love teaching Calculus, and my research is in Topological Data Analysis and Machine Learning!
+        </p>
+
         <!-- Education -->
         <h2>Education</h2>
         <ul>
@@ -62,10 +67,6 @@
     <div class="column">
         <!-- Image and Contact Information -->
         <img src="https://raw.githubusercontent.com/ElizabethThompson98/ElizabethThompson98.github.io/main/Directory_Photo.jpg" alt="" width="200">
-
-        <p>
-            Hi there! My name is Elizabeth Thompson. I am a research and teaching assistant at Washington State University. I love teaching Calculus, and my research is in Topological Data Analysis and Machine Learning!
-        </p>
 
         <p>
             <strong>Contact Information</strong><br>
