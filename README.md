@@ -54,7 +54,24 @@
 <body>
 
     <div class="column">
-        <!-- Greeting at the top of the left column -->
+        <!-- Image and Contact Information -->
+        <div class="columnWrapper">
+            <img src="https://github.com/ElizabethThompson98/ElizabethThompson98.github.io/blob/main/Directory_Photo.jpg?raw=true" alt="Elizabeth Thompson's Photo">
+
+            <p>
+                <strong>Contact Information</strong><br>
+                Email: elizabeth.thompson1@wsu.edu<br>
+                Office Address:<br>
+                Vancouver Undergraduate Building<br>
+                Room 251<br>
+                Washington State University<br>
+                Vancouver WA, 98661
+            </p>
+        </div>
+    </div>
+
+    <div class="column">
+        <!-- Greeting at the top of the right column -->
         <p class="greeting">
             Hi there! My name is Elizabeth Thompson. I am a research and teaching assistant at Washington State University. I love teaching Calculus, and my research is in Topological Data Analysis and Machine Learning!
             <!-- Link to the PDF file -->
@@ -84,23 +101,6 @@
             <li>Math 140 Lab: Calculus for Life Scientists, Fall 2023-Spring 2023</li>
             <li>Math 171 Global Campus: Calculus I Lecture & Lab, Summer 2022</li>
         </ul>
-    </div>
-
-    <div class="column">
-        <!-- Image and Contact Information -->
-        <div class="columnWrapper">
-            <img src="https://github.com/ElizabethThompson98/ElizabethThompson98.github.io/blob/main/Directory_Photo.jpg?raw=true" alt="Elizabeth Thompson's Photo">
-
-            <p>
-                <strong>Contact Information</strong><br>
-                Email: elizabeth.thompson1@wsu.edu<br>
-                Office Address:<br>
-                Vancouver Undergraduate Building<br>
-                Room 251<br>
-                Washington State University<br>
-                Vancouver WA, 98661
-            </p>
-        </div>
     </div>
 
 </body>
