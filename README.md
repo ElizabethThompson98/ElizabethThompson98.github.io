@@ -12,9 +12,9 @@
             justify-content: space-between;
         }
 
-        .left-column {
-            flex: 1;
-            max-width: 600px; /* Adjust the maximum width of the left column */
+        .left-column,
+        .right-column {
+            flex: 1; /* Both columns take up equal space */
         }
 
         img {
