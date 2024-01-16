@@ -12,7 +12,7 @@
         <img src=https://github.com/ElizabethThompson98/ElizabethThompson98.github.io/blob/main/Directory_Photo.jpg alt="" width="200">
     </p>
 
-    <h2>Research</h2>
+    <h2>Education</h2>
     <ul>
         <li>PhD in Mathematics, Washington State University, 2021-Present</li>
         <li>BS in Mathematics & Secondary Education, Linfield University (WSU), 2017-2021</li>
