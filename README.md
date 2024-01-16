@@ -7,7 +7,7 @@
 
     <style>
         body {
-            margin: 20px; /* Add some margin to the body to provide space */
+            margin: 10px; /* Add some margin to the body to provide space */
             display: flex;
             flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
         }
