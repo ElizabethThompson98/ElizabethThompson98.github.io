@@ -15,7 +15,7 @@
 
     <h2>Presentations</h2>
     <ul>
-        <li>Three Minute Thesis Finals, "What Can Donuts Tell Us About Body Cam Data?", March 29, 2023</li>
+        <li><a href="https://www.youtube.com/watch?v=iu7vNOukW00&t=3550s">What Can Donuts Tell Us About Body Cam Data?</a>, March 29, 2023</li>        
         <li>PNW MAA Meeting, "Motivating Student Learning with Mathematical Modeling in Calculus for Life Science" by Alexander Dimitrov and Elizabeth Thompson, George Fox University, March 18, 2023</li>
     </ul>
 
