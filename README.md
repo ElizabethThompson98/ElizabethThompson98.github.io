@@ -56,7 +56,7 @@
     <div class="column">
         <!-- Image and Contact Information -->
         <div class="columnWrapper">
-            <img src="https://github.com/ElizabethThompson98/ElizabethThompson98.github.io/blob/main/Directory_Photo.jpg?raw=true" alt="Elizabeth Thompson's Photo">
+            <img src="https://github.com/ElizabethThompson98/ElizabethThompson98.github.io/blob/main/Directory_Photo.jpg?raw=true" alt="" width="300" height-"200">
 
             <p>
                 <strong>Contact Information</strong><br>
