@@ -17,12 +17,8 @@
             max-width: 50%; /* Limit each column to half the width of the page */
         }
 
-        .right-column {
-            margin-right: 20px; /* Adjust the margin to move the content to the right in the right column */
-        }
-
         img {
-            width: 80%; /* Set the width of the image to fill its container */
+            width: 100%; /* Set the width of the image to fill its container */
             margin: 0 0 10px 10px; /* Adjust margin for spacing around the image */
         }
 
@@ -68,7 +64,7 @@
         </ul>
     </div>
 
-    <div class="column right-column">
+    <div class="column">
         <!-- Image and Contact Information -->
         <img src="https://raw.githubusercontent.com/ElizabethThompson98/ElizabethThompson98.github.io/main/Directory_Photo.jpg" alt="" width="200">
 
