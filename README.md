@@ -26,7 +26,9 @@
 
         img {
             margin: 0 0 10px 10px; /* Adjust margin for spacing around the image */
-        }
+            max-width: 100%; /* Set maximum width to 100% of its containing element */
+            height: auto; /* Allow the height to adjust proportionally */
+        }        
 
         p {
             text-align: justify; /* Justify the text */
