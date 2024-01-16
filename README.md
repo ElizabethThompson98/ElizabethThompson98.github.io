@@ -15,8 +15,6 @@
         .column {
             flex: 1; /* Each column takes up equal space */
             max-width: 50%; /* Limit each column to half the width of the page */
-            margin-right: 20px; /* Adjust the margin to create space between the columns */
-            box-sizing: border-box; /* Include padding and border in the total width */
         }
 
         img {
