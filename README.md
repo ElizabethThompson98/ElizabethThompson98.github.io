@@ -9,16 +9,16 @@
         body {
             margin: 20px; /* Add some margin to the body to provide space */
             display: flex;
-            justify-content: space-between;
+            flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
         }
 
-        .left-column,
-        .right-column {
-            flex: 1; /* Both columns take up equal space */
+        .column {
+            flex: 1; /* Each column takes up equal space */
+            max-width: 50%; /* Limit each column to half the width of the page */
         }
 
         img {
-            width: 300px; /* Set the width of the image */
+            width: 100%; /* Set the width of the image to fill its container */
             margin: 0 0 10px 10px; /* Adjust margin for spacing around the image */
         }
 
@@ -33,7 +33,7 @@
 </head>
 <body>
 
-    <div class="left-column">
+    <div class="column">
         <!-- Education -->
         <h2>Education</h2>
         <ul>
@@ -59,7 +59,7 @@
         </ul>
     </div>
 
-    <div class="right-column">
+    <div class="column">
         <!-- Image and Contact Information -->
         <img src="https://raw.githubusercontent.com/ElizabethThompson98/ElizabethThompson98.github.io/main/Directory_Photo.jpg" alt="" width="200">
 
