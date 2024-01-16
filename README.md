@@ -25,8 +25,6 @@
         }
 
         img {
-            width: 60%; /* Set the width of the image to fill its container */
-            height: auto; /* Maintain the aspect ratio */
             margin: 0 0 10px 10px; /* Adjust margin for spacing around the image */
         }
 
