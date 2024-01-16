@@ -45,7 +45,7 @@
         <p class="greeting">
             Hi there! My name is Elizabeth Thompson. I am a research and teaching assistant at Washington State University. I love teaching Calculus, and my research is in Topological Data Analysis and Machine Learning!
         <!-- Link to the PDF file -->
-        <a href="path/to/your/file.pdf" target="_blank">Here is a link to my CV.</a>
+        <a href="Graduate CV.pdf" target="_blank">Here is a link to my CV.</a>
         </p>
 
         <!-- Education -->
