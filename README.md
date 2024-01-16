@@ -7,6 +7,11 @@
 </head>
 <body>
 
+    <p>
+        Hi there! My name is Elizabeth Thompson. I am a research and teaching assistant at Washington State University. I love teaching Calculus, and my research is in Topological Data Analysis and Machine Learning! 
+        <img src=""C:/Users/eliza/OneDrive/Pictures/Directory_Photo.jpg"" alt="" width="200">
+    </p>
+
     <h2>Research</h2>
     <ul>
         <li>PhD in Mathematics, Washington State University, 2021-Present</li>
