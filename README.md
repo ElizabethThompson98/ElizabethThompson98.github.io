@@ -9,7 +9,7 @@
             display: flex;
             flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
             align-items: flex-start; /* Align items at the start of the flex container */
-            background-color: #D2B48C; /* Change the background color to tan*/
+            background-color: #F5DEB3; /* Change the background color to light tan*/
         }
 
         .column {
