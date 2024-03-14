@@ -44,7 +44,9 @@
         }
         
         img {
-            width: 25%; /* Set the width of the image to 25% */
+            display: block; /* Change display property to block */
+            margin: 0 auto; /* Center the image horizontally */
+            width: 50%; /* Set the width of the image to 50% */
             height: auto; /* Allow the height to adjust proportionally */
         }
         
