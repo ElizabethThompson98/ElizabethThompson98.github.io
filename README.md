@@ -102,17 +102,20 @@
     <div class="column">
         <!-- Image and Contact Information -->
         <div class="columnWrapper">
-            <img src="https://github.com/ElizabethThompson98/ElizabethThompson98.github.io/blob/main/Directory_Photo.jpg?raw=true" alt=""/>
-
-            <p>
-                <strong>Contact Information</strong><br>
-                Email: elizabeth.thompson1@wsu.edu<br>
-                Office Address:<br>
-                Vancouver Undergraduate Building<br>
-                Room 251<br>
-                Washington State University<br>
-                Vancouver WA, 98661
-            </p>
+            <div class="imageContainer">
+                <img src="https://github.com/ElizabethThompson98/ElizabethThompson98.github.io/blob/main/Directory_Photo.jpg?raw=true" alt=""/>
+            </div>
+            <div class="contactInfo">
+                <p>
+                    <strong>Contact Information</strong><br>
+                    Email: elizabeth.thompson1@wsu.edu<br>
+                    Office Address:<br>
+                    Vancouver Undergraduate Building<br>
+                    Room 251<br>
+                    Washington State University<br>
+                    Vancouver WA, 98661
+                </p>
+            </div>
         </div>
     </div>
 
