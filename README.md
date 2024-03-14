@@ -92,7 +92,7 @@
             <li> <a href="Perceptions_of_Force_Update_March_2024.pdf" target="_blank">Predictive Models for Perceptions of Police-Community Interactions Involving Use of Force</a> 
                  <a href="Perceptions_UofF_Code.ipynb" target="_blank"> with associated Python code</a> </li>
             <li> <a href="Mapper_Analysis.pdf" target="_blank">Factors That Impact Uses of Force in Police-Community Interactions</a> 
-                 <a href="UofF Mapper.ipynb" target="_blank">associated Python code </a> </li>
+                 <a href="UofF Mapper.ipynb" target="_blank">with associated Python code </a> </li>
         </ul>
     </div>
 
