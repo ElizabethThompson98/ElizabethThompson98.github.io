@@ -86,14 +86,12 @@
         <!-- Papers -->
         <h2>Papers (in progress)</h2>
         <ul>
-            <!-- Link to the PDF file -->
-            <a href="DQE_Final_Draft.pdf" target="_blank">Comparing TDA Methods of Time Series Analysis</a>
-            
-            <!-- Link to the PDF file -->
-            <a href="Perceptions_of_Force_Update_March_2024.pdf" target="_blank">Predictive Models for Perceptions of Police-Community Interactions Involving Use of Force</a>
-            
-            <!-- Link to the PDF file -->
-            <a href="Mapper_Analysis.pdf" target="_blank">Factors That Impact Uses of Force in Police-Community Interactions</a>
+            <li><!-- Link to the PDF file -->
+            <a href="DQE_Final_Draft.pdf" target="_blank">Comparing TDA Methods of Time Series Analysis</a></li>
+            <li><!-- Link to the PDF file -->
+            <a href="Perceptions_of_Force_Update_March_2024.pdf" target="_blank">Predictive Models for Perceptions of Police-Community Interactions Involving Use of Force</a></li>  
+            <li><!-- Link to the PDF file -->
+            <a href="Mapper_Analysis.pdf" target="_blank">Factors That Impact Uses of Force in Police-Community Interactions</a></li>
         </ul>
     </div>
 
