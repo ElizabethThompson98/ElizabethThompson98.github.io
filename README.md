@@ -95,6 +95,7 @@
             <li> <!-- Link to the PDF file -->
             <a href="Mapper_Analysis.pdf" target="_blank">Factors That Impact Uses of Force in Police-Community Interactions</a>
             </li>
+        </ul>
     </div>
 
     <div class="column">
