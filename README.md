@@ -39,15 +39,21 @@
         }
 
         .columnWrapper {
-            width: 100%;
-            min-height: 600px;
+            display: flex;
+            flex-direction: column; /* Stack image and text vertically */
+            align-items: center; /* Center items horizontally */
+            text-align: center; /* Center text */
         }
-        
+
+        .imageContainer {
+            margin-bottom: 20px; /* Add space between image and text */
+        }
+
         img {
-            display: block; /* Change display property to block */
-            margin: 0 auto; /* Center the image horizontally */
-            width: 50%; /* Set the width of the image to 50% */
-            height: auto; /* Allow the height to adjust proportionally */
+            display: block;
+            width: 50%;
+            height: auto;
+            margin: 0 auto;
         }
         
     </style>
