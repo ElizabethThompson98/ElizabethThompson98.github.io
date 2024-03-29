@@ -38,7 +38,7 @@
 
         img {
             display: block;
-            width: 100%; /* Make images responsive, occupying full width */
+            width: 50%; /* Make images responsive, occupying full width */
             height: auto;
             margin-bottom: 10px; /* Add margin below images */
         }
