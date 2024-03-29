@@ -52,33 +52,29 @@
 <body>
 
 <div class="container">
-    <!-- Second Column (Above First Column) -->
+    <!-- First Column-->
     <div class="column">
         <!-- Image -->
         <img src="https://github.com/ElizabethThompson98/ElizabethThompson98.github.io/blob/main/Directory_Photo.jpg?raw=true" alt="">
 
-        <!-- Contact Information -->
-        <div class="contactInfo">
-            <p>
-                <strong>Contact Information</strong><br>
-                Email: elizabeth.thompson1@wsu.edu<br>
-                Office Address:<br>
-                Vancouver Undergraduate Building<br>
-                Room 251<br>
-                Washington State University<br>
-                Vancouver WA, 98661
-            </p>
-        </div>
-    </div>
-
-    <!-- First Column (Below Second Column) -->
-    <div class="column">
-        <!-- Greeting at the top of the first column -->
+        <!-- Greeting -->
         <p class="greeting">
             Hi there! My name is Elizabeth Thompson. I am a research and teaching assistant at Washington State University. I love teaching Calculus, and my research is in Topological Data Analysis and Machine Learning!
             <!-- Link to the PDF file -->
             <a href="Graduate CV.pdf" target="_blank">Here is a link to my CV.</a>
         </p>
+    </div>
+
+    <!-- Second Column -->
+    <div class="column">
+        <!-- Contact Information -->
+        <h2>Contact Information</h2>
+        <ul>
+            <li>Email: elizabeth.thompson1@wsu.edu</li>
+            <li>Office Address: Vancouver Undergraduate Building</li>
+            <li>Room: 251</li>
+            <li>Washington State University, Vancouver WA, 98661 </li>
+        </ul>
 
         <!-- Education -->
         <h2>Education</h2>
