@@ -8,71 +8,71 @@
     <style>
         body {
             margin: 20px; /* Add some margin to the body to provide space */
-            display: flex;
-            flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
             background-color: #F5DEB3; /* Change the background color to light tan*/
         }
 
-        .column { /*default to stacking columns horizontally side-by-side*/
-            flex: 1; /* Each column takes up equal space */
-            max-width: 50%; /* Limit each column to half the width of the page */
-            margin-right: 0; /* Remove the margin between columns */
-            box-sizing: border-box; /* Include padding and border in the total width */
+        .container {
+            max-width: 800px; /* Set maximum width for better readability */
+            margin: 0 auto; /* Center the content horizontally */
+            padding: 20px; /* Add padding around the content */
         }
-        
-        @media screen and (max-width: 800px) { /*when screens are <=800 pixels, stack columns vertically*/
-            .column {
-                width: 100%;
-                float: none;
-                margin-bottom: 20px; /* Add margin between columns */
-            }
-            img {
-                width: 100%; /* Make images responsive, occupying full width of parent container */
-            }
+
+        .column {
+            margin-bottom: 20px; /* Add margin between columns */
         }
-        
+
         .greeting {
             font-size: 1.2em; /* Increase the font size of the greeting */
             margin-bottom: 20px; /* Add margin to the bottom of the greeting */
-        }
-
-        .columnWrapper {
-            display: flex;
-            flex-direction: column; /* Stack image and text vertically */
-            align-items: center; /* Center items horizontally */
-            text-align: center; /* Center text */
-        }
-
-        .imageContainer {
-            margin-bottom: 20px; /* Add space between image and text */
-        }
-
-        img {
-            display: block;
-            width: 50%;
-            height: auto;
-            margin: 0 auto;
-        }
-
-        p {
             text-align: justify; /* Justify the text */
         }
 
         h2 {
-            clear: right; /* Clear the float to ensure headings start below the image */
+            margin-bottom: 10px; /* Add margin below headings */
         }
 
-        /* Style to remove bullets from all lists */
         ul {
-            list-style-type: none;
+            list-style-type: none; /* Remove bullets from lists */
             padding: 0; /* Remove default padding */
+        }
+
+        img {
+            display: block;
+            width: 100%; /* Make images responsive, occupying full width */
+            height: auto;
+            margin-bottom: 10px; /* Add margin below images */
+        }
+
+        .contactInfo {
+            text-align: center; /* Center contact information */
         }
     </style>
 </head>
 <body>
 
+<div class="container">
+    <!-- Second Column (Above First Column) -->
     <div class="column">
-        <!-- Greeting at the top of the left column -->
+        <!-- Image -->
+        <img src="https://github.com/ElizabethThompson98/ElizabethThompson98.github.io/blob/main/Directory_Photo.jpg?raw=true" alt="">
+
+        <!-- Contact Information -->
+        <div class="contactInfo">
+            <p>
+                <strong>Contact Information</strong><br>
+                Email: elizabeth.thompson1@wsu.edu<br>
+                Office Address:<br>
+                Vancouver Undergraduate Building<br>
+                Room 251<br>
+                Washington State University<br>
+                Vancouver WA, 98661
+            </p>
+        </div>
+    </div>
+
+    <!-- First Column (Below Second Column) -->
+    <div class="column">
+        <!-- Greeting at the top of the first column -->
         <p class="greeting">
             Hi there! My name is Elizabeth Thompson. I am a research and teaching assistant at Washington State University. I love teaching Calculus, and my research is in Topological Data Analysis and Machine Learning!
             <!-- Link to the PDF file -->
@@ -115,26 +115,7 @@
                  <a href="UofF Mapper.ipynb" target="_blank">with associated Python code </a> </li>
         </ul>
     </div>
-
-    <div class="column">
-        <!-- Image and Contact Information -->
-        <div class="columnWrapper">
-            <div class="imageContainer">
-                <img src="https://github.com/ElizabethThompson98/ElizabethThompson98.github.io/blob/main/Directory_Photo.jpg?raw=true" alt=""/>
-            </div>
-            <div class="contactInfo">
-                <p>
-                    <strong>Contact Information</strong><br>
-                    Email: elizabeth.thompson1@wsu.edu<br>
-                    Office Address:<br>
-                    Vancouver Undergraduate Building<br>
-                    Room 251<br>
-                    Washington State University<br>
-                    Vancouver WA, 98661
-                </p>
-            </div>
-        </div>
-    </div>
+</div>
 
 </body>
 </html>
