@@ -13,13 +13,20 @@
             background-color: #F5DEB3; /* Change the background color to light tan*/
         }
 
-        .column {
+        .column { /*default to stacking columns horizontally side-by-side*/
             flex: 1; /* Each column takes up equal space */
             max-width: 50%; /* Limit each column to half the width of the page */
             margin-right: 0; /* Remove the margin between columns */
             box-sizing: border-box; /* Include padding and border in the total width */
         }
-
+        
+        @media screen and (max-width: 600px) { /*when screens are <=600 pixels, stack columns vertically*/
+            .column {
+                width: 100%;
+                float: none;
+            }
+        }
+        
         .greeting {
             font-size: 1.2em; /* Increase the font size of the greeting */
             margin-bottom: 20px; /* Add margin to the bottom of the greeting */
