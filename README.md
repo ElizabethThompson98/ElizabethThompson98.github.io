@@ -19,7 +19,7 @@
             box-sizing: border-box; /* Include padding and border in the total width */
         }
         
-        @media screen and (max-width: 600px) { /*when screens are <=600 pixels, stack columns vertically*/
+        @media screen and (max-width: 2000px) { /*when screens are <=2000 pixels, stack columns vertically*/
             .column {
                 width: 100%;
                 float: none;
