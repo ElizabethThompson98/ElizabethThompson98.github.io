@@ -23,6 +23,10 @@
             .column {
                 width: 100%;
                 float: none;
+                margin-bottom: 20px; /* Add margin between columns */
+            }
+            img {
+                width: 100%; /* Make images responsive, occupying full width of parent container */
             }
         }
         
