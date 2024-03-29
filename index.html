@@ -39,7 +39,7 @@
         img {
             display: block;
             margin: 0 auto; /*center image*/
-            width: 50%; /* Make images responsive, occupying full width */
+            width: 30%; /* Make images responsive, occupying full width */
             height: auto;
             margin-bottom: 10px; /* Add margin below images */
         }
