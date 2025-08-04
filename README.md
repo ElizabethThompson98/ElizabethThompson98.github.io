@@ -86,6 +86,7 @@
         <!-- Presentations -->
         <h2>Presentations</h2>
         <ul>
+            <li><a href="https://jointmathematicsmeetings.org/meetings/national/jmm2025/2314_program.html"> Joint Mathematics Meeting </a> "A Stable Measure for Conditional Periodicity of Time Series using Persistent Homology" by Elizabeth Thompson, Seattle WA, January , 2025 </li>
             <li><a href="https://www.westerncriminology.org/documents/conference_proceedings/WSC_2024_Conference_Program.pdf"> Western Society of Criminology 50th Annual Conference</a> "Perceptions of Force Severity, Operationalizing Reasonableness With a Repeated Measures Design" by David Makin, Elizabeth Thompson, Mary McMillin, Bala Krishnamoorthy, and Dale Willits, Long Beach CA, February 9, 2024</li>
             <li><a href="https://www.youtube.com/watch?v=iu7vNOukW00&t=3550s">What Can Donuts Tell Us About Body Cam Data?</a> 2nd Place Three Minute Thesis Finals, WSU, March 29, 2023</li>        
             <li><a href="https://georgefoxuniversity.regfox.com/pacific-northwest-section-of-the-mathematical-association-of-america"> PNW MAA Meeting</a> "Motivating Student Learning with Mathematical Modeling in Calculus for Life Science" by Alexander Dimitrov and Elizabeth Thompson, George Fox University, March 18, 2023</li>
@@ -104,7 +105,7 @@
         <!-- Papers -->
         <h2>Papers (in progress)</h2>
         <ul>
-            <li> <a href="Contitional_Periodicity_Score.pdf" target="_blank">Quantifying Conditional Periodicity of Time Series using Persistent Homology</a>
+            <li> <a href="Conditional_Periodicity_Score.pdf" target="_blank">Quantifying Conditional Periodicity of Time Series using Persistent Homology</a>
             <li> <a href="fractal_dimensions_via_persistent_homology.pdf" target="_blank">Fractal dimensions of complex networks: advocating for a topological approach</a>
             <li> <a href="DQE_Final_Draft.pdf" target="_blank">Comparing TDA Methods of Time Series Analysis</a> 
                  <a href="R.Code Main.R" target="_blank">with associated R code</a> </li>
