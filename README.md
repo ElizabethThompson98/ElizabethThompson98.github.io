@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
-
+    
     <style>
         body {
             margin: 20px; /* Add some margin to the body to provide space */
