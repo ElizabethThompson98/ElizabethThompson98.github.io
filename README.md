@@ -103,9 +103,9 @@
         </ul>
 
         <!-- Papers -->
-        <h2>Papers (in progress)</h2>
+        <h2>Papers</h2>
         <ul>
-            <li> <a href="Updated_Manuscript_chaos_PH.pdf" target="_blank">A Stable Measure of Chaos for Dynamical Systems using Persistent Homology</a></li>
+            <li> <a href="Updated_Manuscript_chaos_PH.pdf" target="_blank">A Stable Measure of Chaos for Dynamical Systems using Persistent Homology (to appear in to appear in 3rd WinCompTop proceedings (AWM-IMA Springer volume "Research in Computational Topology"))</a></li>
             <li> <a href="Updated_Manuscript_biconditional_scor.pdf" target="_blank">A Stable Measure of Similarity for Time Series using Persistent Homology</a></li>
             <li> <a href="https://arxiv.org/abs/2506.15236" target="_blank">Fractal dimensions of complex networks: advocating for a topological approach</a></li>
             <li> <a href="https://www.crimrxiv.com/pub/xaa0swbw/release/1" target="_blank">Does Coding Change What We See? The Influence of Annotation on Perceptions of Police Use of Force</a> 
