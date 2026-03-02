@@ -105,10 +105,8 @@
         <!-- Papers -->
         <h2>Papers (in progress)</h2>
         <ul>
-            <li> <a href="Conditional_Periodicity_Score.pdf" target="_blank">Quantifying Conditional Periodicity of Time Series using Persistent Homology</a></li>
+            <li> <a href="Updated_Manuscript_biconditional_scor.pdf" target="_blank">A Stable Measure of Similarity for Time Series using Persistent Homology</a></li>
             <li> <a href="fractal_dimensions_via_persistent_homology.pdf" target="_blank">Fractal dimensions of complex networks: advocating for a topological approach</a></li>
-            <li> <a href="DQE_Final_Draft.pdf" target="_blank">Comparing TDA Methods of Time Series Analysis</a> 
-                 <a href="R.Code Main.R" target="_blank">with associated R code</a> </li>
             <li> <a href="Perceptions_of_Force_Update_March_2024.pdf" target="_blank">Predictive Models for Perceptions of Police-Community Interactions Involving Use of Force</a> 
                  <a href="Perceptions_UofF_Code.ipynb" target="_blank"> with associated Python code</a> </li>
             <li> <a href="Mapper_Analysis.pdf" target="_blank">Factors That Impact Uses of Force in Police-Community Interactions</a> 
