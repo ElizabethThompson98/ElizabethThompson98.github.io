@@ -7,75 +7,110 @@
 
     <style>
         body {
-            margin: 20px; /* Add some margin to the body to provide space */
-            background-color: #F5DEB3; /* Change the background color to light tan*/
+            margin: 20px;
+            background-color: #F5DEB3;
         }
 
         .container {
-            max-width: 800px; /* Set maximum width for better readability */
-            margin: 0 auto; /* Center the content horizontally */
-            padding: 20px; /* Add padding around the content */
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* NEW: Flexbox layout for the top section */
+        .top-section {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 30px;
+            align-items: flex-start; /* Align items to the top */
+        }
+
+        /* NEW: Left column containing the image */
+        .left-column {
+            flex: 0 0 30%; /* Fixed width for the image column */
+        }
+
+        /* NEW: Right column containing greeting and contact info */
+        .right-column {
+            flex: 1; /* Takes remaining space */
         }
 
         .column {
-            margin-bottom: 20px; /* Add margin between columns */
+            margin-bottom: 20px;
         }
 
         .greeting {
-            font-size: 1.2em; /* Increase the font size of the greeting */
-            margin-bottom: 20px; /* Add margin to the bottom of the greeting */
-            text-align: justify; /* Justify the text */
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            text-align: justify;
         }
 
         h2 {
-            margin-bottom: 10px; /* Add margin below headings */
+            margin-bottom: 10px;
         }
 
         ul {
-            list-style-type: none; /* Remove bullets from lists */
-            padding: 0; /* Remove default padding */
+            list-style-type: none;
+            padding: 0;
         }
 
         img {
             display: block;
-            margin: 0 auto; /*center image*/
-            width: 30%; /* Make images responsive, occupying full width */
+            width: 100%; /* Image fills its container */
             height: auto;
-            margin-bottom: 10px; /* Add margin below images */
+            border-radius: 8px; /* Optional: adds rounded corners */
         }
 
         .contactInfo {
-            text-align: center; /* Center contact information */
+            text-align: center;
+        }
+
+        /* Optional: Add some spacing between sections on mobile */
+        @media (max-width: 600px) {
+            .top-section {
+                flex-direction: column; /* Stack on mobile */
+                align-items: center;
+            }
+            
+            .left-column {
+                flex: 0 0 auto;
+                width: 60%;
+            }
         }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <!-- First Column-->
-    <div class="column">
-        <!-- Image -->
-        <img src="https://github.com/ElizabethThompson98/ElizabethThompson98.github.io/blob/main/Directory_Photo.jpg?raw=true" alt="">
+    <!-- NEW: Top section with image on left, greeting and contact on right -->
+    <div class="top-section">
+        <!-- Left column: Image -->
+        <div class="left-column">
+            <img src="https://github.com/ElizabethThompson98/ElizabethThompson98.github.io/blob/main/Directory_Photo.jpg?raw=true" alt="Elizabeth Thompson">
+        </div>
 
-        <!-- Greeting -->
-        <p class="greeting">
-            Hi there! My name is Elizabeth Thompson. I have a passion for interdisciplinary teaching and research. I study the use of topological data analysis for measuring properties of dynamic data and enhancing machine learning tasks. I am currently a Postdoctoral Research Fellow for the George Mason University mathematics department.
-            <!-- Link to the PDF file -->
-            <a href="Graduate CV.pdf" target="_blank">Here is a link to my CV.</a>
-        </p>
+        <!-- Right column: Greeting and Contact Information -->
+        <div class="right-column">
+            <!-- Greeting -->
+            <p class="greeting">
+                Hi there! My name is Elizabeth Thompson. I have a passion for interdisciplinary teaching and research. I study the use of topological data analysis for measuring properties of dynamic data and enhancing machine learning tasks. I am currently a Postdoctoral Research Fellow for the George Mason University mathematics department.
+                <!-- Link to the PDF file -->
+                <a href="Graduate CV.pdf" target="_blank">Here is a link to my CV.</a>
+            </p>
+
+            <!-- Contact Information -->
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Email: ethomp28@gmu.edu</li>
+                <li>Office Address: Exploratory Hall</li>
+                <li>Room: 4405</li>
+                <li>George Mason University, Fairfax VA, 22033</li>
+            </ul>
+        </div>
     </div>
 
-    <!-- Second Column -->
+    <!-- The rest of the content stays below -->
     <div class="column">
-        <!-- Contact Information -->
-        <h2>Contact Information</h2>
-        <ul>
-            <li>Email: ethomp28@gmu.edu</li>
-            <li>Office Address: Exploratory Hall</li>
-            <li>Room: 4405</li>
-            <li>George Mason University, Fairfax VA, 22033 </li>
-        </ul>
-
         <!-- Education -->
         <h2>Education</h2>
         <ul>
@@ -105,12 +140,12 @@
 
         <!-- Papers -->
         <h2>Papers</h2>
-    <ul>
-        <li> <a href="https://arxiv.org/abs/2601.10900">A Stable Measure of Chaos for Dynamical Systems using Persistent Homology</a></li>
-        <li> <a href="https://arxiv.org/abs/2501.02817">A Stable Measure of Similarity for Time Series using Persistent Homology</a></li>
-        <li> <a href="https://arxiv.org/abs/2506.15236">Fractal dimensions of complex networks: advocating for a topological approach (to appear in 3rd WinCompTop proceedings (AWM-IMA Springer volume "Research in Computational Topology"))</a></li>
-        <li> <a href="https://www.crimrxiv.com/pub/xaa0swbw/release/1">Does Coding Change What We See? The Influence of Annotation on Perceptions of Police Use of Force </a> </li>
-    </ul>
+        <ul>
+            <li> <a href="https://arxiv.org/abs/2601.10900">A Stable Measure of Chaos for Dynamical Systems using Persistent Homology</a></li>
+            <li> <a href="https://arxiv.org/abs/2501.02817">A Stable Measure of Similarity for Time Series using Persistent Homology</a></li>
+            <li> <a href="https://arxiv.org/abs/2506.15236">Fractal dimensions of complex networks: advocating for a topological approach (to appear in 3rd WinCompTop proceedings (AWM-IMA Springer volume "Research in Computational Topology"))</a></li>
+            <li> <a href="https://www.crimrxiv.com/pub/xaa0swbw/release/1">Does Coding Change What We See? The Influence of Annotation on Perceptions of Police Use of Force </a> </li>
+        </ul>
 
         <!-- WADEPS Tutorials -->
         <h2>WADEPS Tutorials (in progress)</h2>
@@ -118,14 +153,9 @@
             <li> <a href="https://wadeps.org/how-it-works/learn-about-stats/videos/">Link to short video tutorial on WADEPS website explaining differences between agency rates versus counts. </a></li>
             <li><a href="https://miro.com/app/board/uXjVKVkqOWc=/?share_link_id=562550067214">Link to WADEPS Interactive Flow Chart</a></li>
             <li><a href="https://www.youtube.com/playlist?list=PL9TuqCypxHSz5acnZm0G8XMV_6zAHfZxD">Link to WADEPS Classification Video Tutorials</a></li>        
-            <!-- <li><a href="WADEPS_Tutorial_Public_Classification.html", target="_blank">Which counties in WA are most likely to contain low crime? (Intermediate/Advanced Classification Tutorial) </a></li> -->
-            <!-- <li><a href="WADEPS_Tutorial_Public_Classification_Beginner.html",target="_blank"> Which counties in WA are most likely to contain low crime? (Beginner Classification Tutorial)</a></li> -->
-            <!-- <li><a href="Cluster Analysis Summary.pdf" target="_blank"> Cluster Analysis Summary</a></li> -->
-            <!-- <li><a href="WADEPS-MARKDOWN-TUT.html", target="_blank">Which factors in King County WA are associated with high crime? (Beginner Clustering Tutorial)</a></li> -->
         </ul>
     </div>
 </div>
 
 </body>
 </html>
-    
